@@ -12,7 +12,11 @@ public class Hello {
 		// 여러 행 주석 해제 : cmd + shift + \
 		// 자동 포맷 정렬 : cmd + shift + f
 		System.out.println("Hello vincent java");
-		System.out.println();
+		System.out.println("단축키 설정이 잘 되었음.");
+
+		int 성훈 = 1; // 한글 이름을 사용 안함.
+		int H = 3; // 특수문자는 $ 또는 _만 사용가능
+		// int int
 
 	}
 
