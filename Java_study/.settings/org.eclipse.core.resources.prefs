@@ -1,5 +1,9 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 encoding//src/ch02_1017/CharacterEx1.java=UTF-8
+=======
+encoding//src/ch2_1017/CharacterEx1.java=UTF-8
+>>>>>>> refs/remotes/origin/master
 encoding//src/pattern1_duckWorld/Duck.java=UTF-8
 encoding//src/pattern1_duckWorld/FlyBehavior.java=UTF-8
 encoding//src/pattern1_duckWorld/FlyNoWay.java=UTF-8
