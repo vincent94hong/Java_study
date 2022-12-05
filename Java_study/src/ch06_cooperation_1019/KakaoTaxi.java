@@ -1,13 +1,13 @@
 package ch06_cooperation_1019;
 
-public class Bus {
-	int busNumber; // 버스 번호
+public class KakaoTaxi {
+	int kakaotaxiNumber; // 버스 번호
 	int passengerCount; // 승객 수
 	int money; // 버스의 수입
 
-	public Bus(int busNumebr) // 버스 번호를 매개변수로 받는 생성자
+	public KakaoTaxi(int kakaotaxiNumber) // 버스 번호를 매개변수로 받는 생성자
 	{
-		this.busNumber = busNumebr;
+		this.kakaotaxiNumber = kakaotaxiNumber;
 	}
 
 	public void take(int money) // 승객이 낸 돈을 받음
@@ -17,7 +17,7 @@ public class Bus {
 	}
 
 	public void showInfo() { // 버스 정보를 출력하는 함수
-		System.out.println("버스 " + busNumber + "번의 승객은 " + passengerCount + "명이고, 수입은 " + money + "입니다.");
+		System.out.println("택시 " + kakaotaxiNumber + "번의 승객은 " + passengerCount + "명이고, 수입은 " + money + "입니다.");
 	}
 
 }
