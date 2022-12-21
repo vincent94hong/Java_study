@@ -4,6 +4,16 @@ package ch07_arraylist_1020;
 public class StudentTest {
 
 	public static void main(String[] args) {
+		
+		Student studentHong = new Student(2013, "Hong");
+		studentHong.addSubject("java", 100);
+		studentHong.addSubject("spring", 100);
+		studentHong.addSubject("android", 100);
+		studentHong.showStudentInfo();
+		System.out.println("======================================");
+		
+		
+		
 		Student studentLee = new Student(1001, "Lee");
 		
 		studentLee.addSubject("국어", 100);

@@ -8,10 +8,10 @@ public class CompanyTest {
 		Company company2;
 
 		Company company3 = Company.getInstance(); // 인스턴스 멤버 변수 선언 및 할당 같이.
-		
+
 		company1 = Company.getInstance(); // 선언 후, 나중에 할당한 경우.
 		company2 = Company.getInstance(); // 선언 후, 나중에 할당한 경우.
-		
+
 		System.out.println("company1의 주소값" + company1);
 		System.out.println("company2의 주소값" + company2);
 		System.out.println("company3의 주소값" + company3);

@@ -15,7 +15,7 @@ import studentInfoEx.utils.Define;
 public class GenerateGradeReport {
 
 	School school = School.getInstance();
-	public static final String TITLE = " 수강생 학점 \t\t\n";
+	public static final String TITLE = " 과목 수강생 학점 \t\t\n";
 	public static final String HEADER = " 이름  |  학번  |중점과목| 점수   \n ";
 	public static final String LINE = "-------------------------------------\n";
 	private StringBuffer buffer = new StringBuffer();  

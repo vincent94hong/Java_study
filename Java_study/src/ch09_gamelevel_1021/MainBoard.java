@@ -35,6 +35,11 @@ public class MainBoard {
 		SuperLevel sLevel = new SuperLevel();
 		player.upgradeLevel(sLevel);
 		player.play(3);
+		UltraLevel uLevel = new UltraLevel();
+		player.upgradeLevel(uLevel);
+		player.play(4);
+		UltimateSkill ultimateSkill = new UltimateSkill("울트라스킬", 5, "전역범위");
+		player.useUltimateSkill(ultimateSkill);
 		
 	}
 }

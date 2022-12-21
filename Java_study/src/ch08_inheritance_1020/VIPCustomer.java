@@ -5,6 +5,22 @@ public class VIPCustomer extends Customer{
 	private int agentID;
 	double saleRatio;
 	
+	//샘플로 메서드를 통해서 다형성의 특징 설명
+	//매개변수에 자식 클래스인 VIPCustomer 만 사용이 됨.
+	public void testMethod(VIPCustomer vip) {
+		
+	}
+	
+	//매개변수에 자식 클래스인 VIPCustomer 와 Customer 부모
+	public void testMethod2(Customer cus) {
+		
+	}
+	
+	//매개변수에 최상
+	public void testMethod3(Object o1) {
+		
+	}
+	
 	public VIPCustomer()
 	{
 		//부모클래스의 생성자가 먼저 호출이 됩니다. 사실

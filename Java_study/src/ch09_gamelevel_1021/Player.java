@@ -4,6 +4,7 @@ public class Player {
 	
 	//Player 에 PlayerLevel 추상 클래스형으로 선언 함. 
 	private PlayerLevel level;
+	private UltimateSkill ultimateSkill;
 	
 	public Player()
 	{
@@ -25,5 +26,11 @@ public class Player {
 	
 	public void play(int count){
 		level.go(count);
+	}
+	
+	
+	public void useUltimateSkill(UltimateSkill ultimateSkill) {
+		this.ultimateSkill = ultimateSkill;
+		ultimateSkill.showSkillInfo();
 	}
 }

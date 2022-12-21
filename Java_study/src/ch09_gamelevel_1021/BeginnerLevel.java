@@ -17,7 +17,7 @@ public class BeginnerLevel extends PlayerLevel{
 	public void turn() {
 		System.out.println("Turn 할 줄 모르지롱.");		
 	}
-
+	
 	@Override
 	public void showLevelMessage() {
 		System.out.println("***** 초보자 레벨 입니다. *****");
